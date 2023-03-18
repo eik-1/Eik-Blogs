@@ -1,2 +1,0 @@
-# Eik-Blogs
-Personal Blogs
