@@ -1,0 +1,26 @@
+<%- include("partials/header"); -%>
+
+<section class="container-fluid">
+  <h1>Compose</h1>
+  <form action="/" method="post">
+    <div class="composeBox">
+      <label for="title">Title</label>
+      <br />
+      <input type="text" name="journalTitle" autocomplete="off" />
+    </div>
+    <div class="composeBox">
+      <label for="content">Content</label>
+      <br />
+      <textarea
+        class="form-control"
+        name="journalContent"
+        rows="5"
+        cols="33"
+        autocomplete="off"
+      ></textarea>
+    </div>
+    <button class="button" type="submit">PUBLISH</button>
+  </form>
+</section>
+
+<%- include("partials/footer"); -%>
