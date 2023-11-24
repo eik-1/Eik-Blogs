@@ -14,9 +14,9 @@ app.use(express.static("public"));
 app.use(express.static("images"));
 
 const homeStartingContent =
-  "Welcome to Eik's Journal website. Here I post daily about lessons that life taught me. Things might get philosophical so hold on tight! I hope you enjoy this lovely website that I created 😊.";
+  "Welcome to Eik's Journal website. Here I post daily about lessons that life taught me. Things might get philosophical so hold on tight! This website is built upon EJS and uses mongoose database to manipulate the data.";
 const aboutContent =
-  "Salut les gars et les filles. Je ne parle pas français, j'ai donc utilisé Google Translater parce que le français a l'air sexy. Anyways I go by the name Eik. I am a self learner and currently I am learning Web Development and Blockchain Development. I don't know what I am doing since I am in an open relationship with learning Philosophies. Thanks for using this website. It's just a personal project I am working on. Au revoir.";
+  "Hey guys! I am Sarthak Rawat (Eik). I am a full stack blockchain developer on Ethereum chain. I am trying to improve my skills in front end (React, Next, Tailwind). ";
 const contactContent =
   "I would love to connect with people working in Blockchain industry or Self learners. Refer to the link below: ";
 
